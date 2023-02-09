@@ -12,6 +12,10 @@
     font-weight: 700;
     border: 0;
 }
+#secondary-button {
+    background: white;
+    color: #F15B22;
+}
 .check-icon img{
     width: 24px;
     padding: 10px 5px 0 5px;
@@ -102,15 +106,40 @@
     margin: 25px 0;
 }
 .plan-items p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #444343;
 }
 
+/* img gradient section  */
+.img-gradient {
+    margin: 0 230px 130px 230px;
+    background-image: url(/images/gradient2.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    height: 234px;
+    border-radius: 5px;
+    position: relative;
+}
+.img-gradient img{
+    width: 100%;
+}
+.img-gradient-content {
+    margin: 40px 100px 60px 65px;
+    position: absolute;
+    padding-right: 30%;
+}
+.img-gradient-content h4 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
 
 /* footer  */
 footer{
-    background-color: #000000;
+    background-color: #151414;
 }
 .footer-info {
     display: flex;
