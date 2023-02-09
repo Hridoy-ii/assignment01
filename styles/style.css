@@ -51,6 +51,7 @@
 .failure-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .img-part {
@@ -75,4 +76,33 @@
     list-style: none;
     text-align: left;
     margin-bottom: 10px;
+}
+
+/* my plan part  */
+.my-plan-part{
+    margin: 130px 230px;
+    text-align: center;
+
+}
+.plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.plan-items{
+    
+}
+.plan-items h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+.plan-items p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #444343;
 }
