@@ -3,7 +3,8 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.primary-bttn{
+
+.primary-bttn {
     background: #F15B22;
     color: white;
     border-radius: 5px;
@@ -12,18 +13,20 @@
     font-weight: 700;
     border: 0;
 }
+
 #secondary-button {
     background: white;
     color: #F15B22;
 }
-.check-icon img{
+
+.check-icon img {
     width: 24px;
     padding: 10px 5px 0 5px;
 }
 
 /* header section */
 .header {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 800px;
@@ -31,6 +34,7 @@
     position: relative;
     margin-bottom: 130px;
 }
+
 .blank-div {
     width: 150%;
     height: auto;
@@ -40,42 +44,49 @@
     margin: 215px 230px 165px 0;
     text-align: right;
 }
+
 .header-title {
     font-size: 65px;
     font-weight: 700;
     text-align: right;
     margin-bottom: 20px;
 }
-.heading p{
+
+.heading p {
     text-align: right;
     margin-bottom: 25px;
 }
 
 /* failure section */
-.failure-content{
+.failure-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+
 .img-part {
     margin-left: 35px;
     padding: 0 65px;
 }
-.text-part{
+
+.text-part {
     margin-right: 220px;
 }
-.text-part h3{
+
+.text-part h3 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 25px;
 
 }
-.text-part p{
+
+.text-part p {
     color: #444343;
     margin-bottom: 15px;
 }
-.text-part li{
+
+.text-part li {
     color: #444343;
     list-style: none;
     text-align: left;
@@ -83,29 +94,32 @@
 }
 
 /* my plan part  */
-.my-plan-part{
+.my-plan-part {
     margin: 130px 230px;
     text-align: center;
 
 }
-.plan-content{
+
+.plan-content {
     display: flex;
     justify-content: space-between;
 }
-.plan-heading{
+
+.plan-heading {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 55px;
 }
-.plan-items{
-    
-}
-.plan-items h4{
+
+.plan-items {}
+
+.plan-items h4 {
     font-size: 30px;
     font-weight: 700;
     margin: 25px 0;
 }
-.plan-items p{
+
+.plan-items p {
     font-size: 20px;
     font-weight: 700;
     color: #444343;
@@ -114,20 +128,23 @@
 /* img gradient section  */
 .img-gradient {
     margin: 0 230px 130px 230px;
-    background-image: url(/images/gradient2.png), url(/images/watch.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-repeat: no-repeat;
     height: 234px;
     border-radius: 5px;
     position: relative;
 }
-.img-gradient img{
+
+.img-gradient img {
     width: 100%;
 }
+
 .img-gradient-content {
     margin: 40px 100px 60px 65px;
     position: absolute;
     padding-right: 30%;
 }
+
 .img-gradient-content h4 {
     color: white;
     font-size: 40px;
@@ -138,35 +155,42 @@
 
 
 /* footer  */
-footer{
+footer {
     background-color: #151414;
 }
+
 .footer-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 130px 230px;
 }
-.future-part{
+
+.future-part {
     color: white;
     width: 35%;
 
 }
-.future-part h4{
+
+.future-part h4 {
     font-size: 45px;
     margin-bottom: 15px;
 }
-.future-part article{
+
+.future-part article {
     margin-bottom: 15px;
 }
-.future-part p{
+
+.future-part p {
     margin-bottom: 15px;
 }
-.future-part p a{
+
+.future-part p a {
     color: #fff;
     text-decoration: none;
 }
-.social-icon img{
+
+.social-icon img {
     margin-right: 15px;
 }
 
@@ -179,9 +203,11 @@ footer{
     align-items: flex-start;
     margin-top: -100px;
 }
-.subscribe-part h5{
+
+.subscribe-part h5 {
     margin-bottom: 30px;
 }
+
 .subscribe-part input {
     margin-bottom: 15px;
     height: 45px;
